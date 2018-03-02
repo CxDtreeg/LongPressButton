@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D5CB7C520492C910015F460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5CB7C420492C910015F460 /* AppDelegate.swift */; };
+		4D5CB7C720492C910015F460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5CB7C620492C910015F460 /* ViewController.swift */; };
+		4D5CB7CA20492C910015F460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5CB7C820492C910015F460 /* Main.storyboard */; };
+		4D5CB7CC20492C910015F460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5CB7CB20492C910015F460 /* Assets.xcassets */; };
+		4D5CB7CF20492C910015F460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5CB7CD20492C910015F460 /* LaunchScreen.storyboard */; };
+		4D5CB7D720492CC00015F460 /* LongPressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5CB7D620492CC00015F460 /* LongPressButton.swift */; };
+		A5AA872E79DC797069DC2CDB /* Pods_LongPressButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225A144ACF185027170F8FA7 /* Pods_LongPressButtonDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		225A144ACF185027170F8FA7 /* Pods_LongPressButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LongPressButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5CB7C120492C910015F460 /* LongPressButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPressButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5CB7C420492C910015F460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D5CB7C620492C910015F460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D5CB7C920492C910015F460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D5CB7CB20492C910015F460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D5CB7CE20492C910015F460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D5CB7D020492C910015F460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5CB7D620492CC00015F460 /* LongPressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButton.swift; sourceTree = "<group>"; };
+		7416E399D82AC0D4AD2CD330 /* Pods-LongPressButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9A0A06AE315BB2C24B5F3F20 /* Pods-LongPressButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LongPressButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D5CB7BE20492C910015F460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AA872E79DC797069DC2CDB /* Pods_LongPressButtonDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306FF9899E26DFBBD4851B47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A0A06AE315BB2C24B5F3F20 /* Pods-LongPressButtonDemo.debug.xcconfig */,
+				7416E399D82AC0D4AD2CD330 /* Pods-LongPressButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D5CB7B820492C910015F460 = {
+			isa = PBXGroup;
+			children = (
+				4D5CB7C320492C910015F460 /* LongPressButtonDemo */,
+				4D5CB7C220492C910015F460 /* Products */,
+				306FF9899E26DFBBD4851B47 /* Pods */,
+				8201C13A9F8B1EAD4B6E3AF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D5CB7C220492C910015F460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D5CB7C120492C910015F460 /* LongPressButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5CB7C320492C910015F460 /* LongPressButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4D5CB7D620492CC00015F460 /* LongPressButton.swift */,
+				4D5CB7C420492C910015F460 /* AppDelegate.swift */,
+				4D5CB7C620492C910015F460 /* ViewController.swift */,
+				4D5CB7C820492C910015F460 /* Main.storyboard */,
+				4D5CB7CB20492C910015F460 /* Assets.xcassets */,
+				4D5CB7CD20492C910015F460 /* LaunchScreen.storyboard */,
+				4D5CB7D020492C910015F460 /* Info.plist */,
+			);
+			path = LongPressButtonDemo;
+			sourceTree = "<group>";
+		};
+		8201C13A9F8B1EAD4B6E3AF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225A144ACF185027170F8FA7 /* Pods_LongPressButtonDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D5CB7C020492C910015F460 /* LongPressButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5CB7D320492C910015F460 /* Build configuration list for PBXNativeTarget "LongPressButtonDemo" */;
+			buildPhases = (
+				360D9BBEE4B6305931ABE324 /* [CP] Check Pods Manifest.lock */,
+				4D5CB7BD20492C910015F460 /* Sources */,
+				4D5CB7BE20492C910015F460 /* Frameworks */,
+				4D5CB7BF20492C910015F460 /* Resources */,
+				2F7F5AC95BEFEB31EB13B6A3 /* [CP] Embed Pods Frameworks */,
+				310FF93E8C07DA4553C2FE26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPressButtonDemo;
+			productName = LongPressButtonDemo;
+			productReference = 4D5CB7C120492C910015F460 /* LongPressButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D5CB7B920492C910015F460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CxDtreeg;
+				TargetAttributes = {
+					4D5CB7C020492C910015F460 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D5CB7BC20492C910015F460 /* Build configuration list for PBXProject "LongPressButtonDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D5CB7B820492C910015F460;
+			productRefGroup = 4D5CB7C220492C910015F460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D5CB7C020492C910015F460 /* LongPressButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D5CB7BF20492C910015F460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5CB7CF20492C910015F460 /* LaunchScreen.storyboard in Resources */,
+				4D5CB7CC20492C910015F460 /* Assets.xcassets in Resources */,
+				4D5CB7CA20492C910015F460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F7F5AC95BEFEB31EB13B6A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		310FF93E8C07DA4553C2FE26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		360D9BBEE4B6305931ABE324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LongPressButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D5CB7BD20492C910015F460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5CB7C720492C910015F460 /* ViewController.swift in Sources */,
+				4D5CB7C520492C910015F460 /* AppDelegate.swift in Sources */,
+				4D5CB7D720492CC00015F460 /* LongPressButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D5CB7C820492C910015F460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5CB7C920492C910015F460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D5CB7CD20492C910015F460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D5CB7CE20492C910015F460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D5CB7D120492C910015F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D5CB7D220492C910015F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D5CB7D420492C910015F460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0A06AE315BB2C24B5F3F20 /* Pods-LongPressButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3T9TULVG3;
+				INFOPLIST_FILE = LongPressButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cxd.LongPressButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5CB7D520492C910015F460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7416E399D82AC0D4AD2CD330 /* Pods-LongPressButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3T9TULVG3;
+				INFOPLIST_FILE = LongPressButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cxd.LongPressButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5CB7BC20492C910015F460 /* Build configuration list for PBXProject "LongPressButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5CB7D120492C910015F460 /* Debug */,
+				4D5CB7D220492C910015F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5CB7D320492C910015F460 /* Build configuration list for PBXNativeTarget "LongPressButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5CB7D420492C910015F460 /* Debug */,
+				4D5CB7D520492C910015F460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D5CB7B920492C910015F460 /* Project object */;
+}
