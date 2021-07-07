@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
     
     var num:Int = 0
+    let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()

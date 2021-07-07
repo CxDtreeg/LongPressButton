@@ -103,7 +103,6 @@
 				4D5CB7BE20492C910015F460 /* Frameworks */,
 				4D5CB7BF20492C910015F460 /* Resources */,
 				2F7F5AC95BEFEB31EB13B6A3 /* [CP] Embed Pods Frameworks */,
-				310FF93E8C07DA4553C2FE26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,33 +167,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		310FF93E8C07DA4553C2FE26 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LongPressButtonDemo/Pods-LongPressButtonDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		360D9BBEE4B6305931ABE324 /* [CP] Check Pods Manifest.lock */ = {

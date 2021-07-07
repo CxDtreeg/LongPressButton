@@ -12,7 +12,7 @@ import RxCocoa
 
 class LongPressButton: UIButton {
     let disposeBag:DisposeBag = DisposeBag()
-    var timeDisposeBag:DisposeBag? = DisposeBag()
+    var timeDisposeBag:DisposeBag?
     var longPress:PublishSubject<UIButton> = PublishSubject<UIButton>()
     
     override init(frame: CGRect) {
@@ -30,7 +30,7 @@ class LongPressButton: UIButton {
     func startTimer() {
         timeDisposeBag = DisposeBag()
         Observable<Int>
-            .interval(0.05, scheduler: MainScheduler.instance)
+            .interval(RxTimeInterval.milliseconds(50), scheduler: MainScheduler.instance)
             .subscribe(onNext: {[unowned self] (_) in
                 self.longPress.onNext(self)
             })
